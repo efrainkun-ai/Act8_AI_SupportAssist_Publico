@@ -1,0 +1,66 @@
+{
+  "method": "Reproducción de ventanas verificadas mediante HTTP local y JavaScript con DOM/Canvas de prueba",
+  "renderCalls": 3372,
+  "states": [
+    {
+      "phase": "Ventana 1 · línea base",
+      "open": "0"
+    },
+    {
+      "phase": "Ventana 2 · línea base",
+      "open": "0"
+    },
+    {
+      "phase": "Ventana 3 · línea base",
+      "open": "0"
+    },
+    {
+      "phase": "Ventana 4 · línea base",
+      "open": "0"
+    },
+    {
+      "phase": "Ventana 5 · control 422",
+      "open": "0"
+    },
+    {
+      "phase": "Ventana 6 · incidente integridad",
+      "open": "0"
+    },
+    {
+      "phase": "Ventana 7 · incidente integridad",
+      "open": "1"
+    },
+    {
+      "phase": "Ventana 8 · incidente integridad",
+      "open": "1"
+    },
+    {
+      "phase": "Ventana 9 · validación rollback",
+      "open": "1"
+    },
+    {
+      "phase": "Ventana 10 · validación rollback",
+      "open": "0"
+    },
+    {
+      "phase": "Ventana 11 · incidente drift",
+      "open": "0"
+    },
+    {
+      "phase": "Ventana 12 · incidente drift",
+      "open": "1"
+    },
+    {
+      "phase": "Ventana 13 · incidente drift",
+      "open": "1"
+    },
+    {
+      "phase": "Ventana 14 · validación drift",
+      "open": "1"
+    },
+    {
+      "phase": "Ventana 15 · validación drift",
+      "open": "0"
+    }
+  ]
+}

@@ -1,0 +1,1378 @@
+{
+  "tracking_version": "3.5.0",
+  "experiment": "Actividad 8 AI-SupportAssist",
+  "run": {
+    "run_uuid": "4ef2c00995e146cfad88c48e50f63068",
+    "name": "game-day-actividad-8",
+    "status": "FINISHED",
+    "start_time": 1795320536514,
+    "end_time": 1795320570380
+  },
+  "parameters": {
+    "availability_slo": "0.99",
+    "latency_slo": "0.95",
+    "latency_floor_ms": "25",
+    "latency_baseline_factor": "2",
+    "baseline_windows": "4",
+    "availability_burn_critical": "10",
+    "latency_burn_warning": "2",
+    "drift_jsd_threshold_bits": "0.08",
+    "min_probes": "20",
+    "min_drift_samples": "20",
+    "consecutive_breaches": "2",
+    "consecutive_clean": "2",
+    "model_version": "act6-nb-financial-v1",
+    "model_sha256": "3bcdf28fb22781d16bb2840ac9bd2f1861c7aae2853e7f4fc40695e1c8553790",
+    "threshold": "0.24",
+    "window_gap_s": "1.8",
+    "python": "3.12.14",
+    "latency_limit_ms": "25",
+    "baseline_oov": "0.0"
+  },
+  "metrics": [
+    {
+      "key": "RB-01_detect_s",
+      "value": 3.537,
+      "step": 0,
+      "timestamp": 1795320570195
+    },
+    {
+      "key": "RB-01_recover_s",
+      "value": 7.18,
+      "step": 0,
+      "timestamp": 1795320570195
+    },
+    {
+      "key": "RB-02_detect_s",
+      "value": 2.061,
+      "step": 0,
+      "timestamp": 1795320570202
+    },
+    {
+      "key": "RB-02_recover_s",
+      "value": 5.869,
+      "step": 0,
+      "timestamp": 1795320570202
+    },
+    {
+      "key": "availability",
+      "value": 1.0,
+      "step": 1,
+      "timestamp": 1795320538244
+    },
+    {
+      "key": "availability_burn",
+      "value": 0.0,
+      "step": 1,
+      "timestamp": 1795320538244
+    },
+    {
+      "key": "drift_n",
+      "value": 24.0,
+      "step": 1,
+      "timestamp": 1795320538244
+    },
+    {
+      "key": "expected_422_extra",
+      "value": 0.0,
+      "step": 1,
+      "timestamp": 1795320538244
+    },
+    {
+      "key": "failed",
+      "value": 0.0,
+      "step": 1,
+      "timestamp": 1795320538244
+    },
+    {
+      "key": "http_p95_ms",
+      "value": 2.937,
+      "step": 1,
+      "timestamp": 1795320538244
+    },
+    {
+      "key": "inference_p95_ms",
+      "value": 1.176,
+      "step": 1,
+      "timestamp": 1795320538244
+    },
+    {
+      "key": "labeled_correct",
+      "value": 24.0,
+      "step": 1,
+      "timestamp": 1795320538244
+    },
+    {
+      "key": "latency_samples",
+      "value": 24.0,
+      "step": 1,
+      "timestamp": 1795320538244
+    },
+    {
+      "key": "oov",
+      "value": 0.0,
+      "step": 1,
+      "timestamp": 1795320538244
+    },
+    {
+      "key": "oov_rate",
+      "value": 0.0,
+      "step": 1,
+      "timestamp": 1795320538244
+    },
+    {
+      "key": "probes",
+      "value": 25.0,
+      "step": 1,
+      "timestamp": 1795320538244
+    },
+    {
+      "key": "window",
+      "value": 1.0,
+      "step": 1,
+      "timestamp": 1795320538244
+    },
+    {
+      "key": "availability",
+      "value": 1.0,
+      "step": 2,
+      "timestamp": 1795320540180
+    },
+    {
+      "key": "availability_burn",
+      "value": 0.0,
+      "step": 2,
+      "timestamp": 1795320540180
+    },
+    {
+      "key": "drift_n",
+      "value": 24.0,
+      "step": 2,
+      "timestamp": 1795320540180
+    },
+    {
+      "key": "expected_422_extra",
+      "value": 0.0,
+      "step": 2,
+      "timestamp": 1795320540180
+    },
+    {
+      "key": "failed",
+      "value": 0.0,
+      "step": 2,
+      "timestamp": 1795320540180
+    },
+    {
+      "key": "http_p95_ms",
+      "value": 3.68,
+      "step": 2,
+      "timestamp": 1795320540180
+    },
+    {
+      "key": "inference_p95_ms",
+      "value": 0.962,
+      "step": 2,
+      "timestamp": 1795320540180
+    },
+    {
+      "key": "labeled_correct",
+      "value": 24.0,
+      "step": 2,
+      "timestamp": 1795320540180
+    },
+    {
+      "key": "latency_samples",
+      "value": 24.0,
+      "step": 2,
+      "timestamp": 1795320540180
+    },
+    {
+      "key": "oov",
+      "value": 0.0,
+      "step": 2,
+      "timestamp": 1795320540180
+    },
+    {
+      "key": "oov_rate",
+      "value": 0.0,
+      "step": 2,
+      "timestamp": 1795320540180
+    },
+    {
+      "key": "probes",
+      "value": 25.0,
+      "step": 2,
+      "timestamp": 1795320540180
+    },
+    {
+      "key": "window",
+      "value": 2.0,
+      "step": 2,
+      "timestamp": 1795320540180
+    },
+    {
+      "key": "availability",
+      "value": 1.0,
+      "step": 3,
+      "timestamp": 1795320542126
+    },
+    {
+      "key": "availability_burn",
+      "value": 0.0,
+      "step": 3,
+      "timestamp": 1795320542126
+    },
+    {
+      "key": "drift_n",
+      "value": 24.0,
+      "step": 3,
+      "timestamp": 1795320542126
+    },
+    {
+      "key": "expected_422_extra",
+      "value": 0.0,
+      "step": 3,
+      "timestamp": 1795320542126
+    },
+    {
+      "key": "failed",
+      "value": 0.0,
+      "step": 3,
+      "timestamp": 1795320542126
+    },
+    {
+      "key": "http_p95_ms",
+      "value": 5.083,
+      "step": 3,
+      "timestamp": 1795320542126
+    },
+    {
+      "key": "inference_p95_ms",
+      "value": 1.168,
+      "step": 3,
+      "timestamp": 1795320542126
+    },
+    {
+      "key": "labeled_correct",
+      "value": 24.0,
+      "step": 3,
+      "timestamp": 1795320542126
+    },
+    {
+      "key": "latency_samples",
+      "value": 24.0,
+      "step": 3,
+      "timestamp": 1795320542126
+    },
+    {
+      "key": "oov",
+      "value": 0.0,
+      "step": 3,
+      "timestamp": 1795320542126
+    },
+    {
+      "key": "oov_rate",
+      "value": 0.0,
+      "step": 3,
+      "timestamp": 1795320542126
+    },
+    {
+      "key": "probes",
+      "value": 25.0,
+      "step": 3,
+      "timestamp": 1795320542126
+    },
+    {
+      "key": "window",
+      "value": 3.0,
+      "step": 3,
+      "timestamp": 1795320542126
+    },
+    {
+      "key": "availability",
+      "value": 1.0,
+      "step": 4,
+      "timestamp": 1795320544068
+    },
+    {
+      "key": "availability_burn",
+      "value": 0.0,
+      "step": 4,
+      "timestamp": 1795320544068
+    },
+    {
+      "key": "drift_n",
+      "value": 24.0,
+      "step": 4,
+      "timestamp": 1795320544068
+    },
+    {
+      "key": "expected_422_extra",
+      "value": 0.0,
+      "step": 4,
+      "timestamp": 1795320544068
+    },
+    {
+      "key": "failed",
+      "value": 0.0,
+      "step": 4,
+      "timestamp": 1795320544068
+    },
+    {
+      "key": "http_p95_ms",
+      "value": 3.176,
+      "step": 4,
+      "timestamp": 1795320544068
+    },
+    {
+      "key": "inference_p95_ms",
+      "value": 0.889,
+      "step": 4,
+      "timestamp": 1795320544068
+    },
+    {
+      "key": "labeled_correct",
+      "value": 24.0,
+      "step": 4,
+      "timestamp": 1795320544068
+    },
+    {
+      "key": "latency_samples",
+      "value": 24.0,
+      "step": 4,
+      "timestamp": 1795320544068
+    },
+    {
+      "key": "oov",
+      "value": 0.0,
+      "step": 4,
+      "timestamp": 1795320544068
+    },
+    {
+      "key": "oov_rate",
+      "value": 0.0,
+      "step": 4,
+      "timestamp": 1795320544068
+    },
+    {
+      "key": "probes",
+      "value": 25.0,
+      "step": 4,
+      "timestamp": 1795320544068
+    },
+    {
+      "key": "window",
+      "value": 4.0,
+      "step": 4,
+      "timestamp": 1795320544068
+    },
+    {
+      "key": "availability",
+      "value": 1.0,
+      "step": 5,
+      "timestamp": 1795320546117
+    },
+    {
+      "key": "availability_burn",
+      "value": 0.0,
+      "step": 5,
+      "timestamp": 1795320546117
+    },
+    {
+      "key": "drift_n",
+      "value": 24.0,
+      "step": 5,
+      "timestamp": 1795320546117
+    },
+    {
+      "key": "expected_422_extra",
+      "value": 8.0,
+      "step": 5,
+      "timestamp": 1795320546117
+    },
+    {
+      "key": "failed",
+      "value": 0.0,
+      "step": 5,
+      "timestamp": 1795320546117
+    },
+    {
+      "key": "http_p95_ms",
+      "value": 2.975,
+      "step": 5,
+      "timestamp": 1795320546117
+    },
+    {
+      "key": "inference_p95_ms",
+      "value": 1.108,
+      "step": 5,
+      "timestamp": 1795320546117
+    },
+    {
+      "key": "jsd_bits",
+      "value": 0.0,
+      "step": 5,
+      "timestamp": 1795320546117
+    },
+    {
+      "key": "labeled_correct",
+      "value": 24.0,
+      "step": 5,
+      "timestamp": 1795320546117
+    },
+    {
+      "key": "latency_burn",
+      "value": 0.0,
+      "step": 5,
+      "timestamp": 1795320546117
+    },
+    {
+      "key": "latency_compliance",
+      "value": 1.0,
+      "step": 5,
+      "timestamp": 1795320546117
+    },
+    {
+      "key": "latency_samples",
+      "value": 24.0,
+      "step": 5,
+      "timestamp": 1795320546117
+    },
+    {
+      "key": "oov",
+      "value": 0.0,
+      "step": 5,
+      "timestamp": 1795320546117
+    },
+    {
+      "key": "oov_rate",
+      "value": 0.0,
+      "step": 5,
+      "timestamp": 1795320546117
+    },
+    {
+      "key": "probes",
+      "value": 25.0,
+      "step": 5,
+      "timestamp": 1795320546117
+    },
+    {
+      "key": "slow",
+      "value": 0.0,
+      "step": 5,
+      "timestamp": 1795320546117
+    },
+    {
+      "key": "window",
+      "value": 5.0,
+      "step": 5,
+      "timestamp": 1795320546117
+    },
+    {
+      "key": "availability",
+      "value": 0.0,
+      "step": 6,
+      "timestamp": 1795320549636
+    },
+    {
+      "key": "availability_burn",
+      "value": 99.99999999999991,
+      "step": 6,
+      "timestamp": 1795320549636
+    },
+    {
+      "key": "drift_n",
+      "value": 0.0,
+      "step": 6,
+      "timestamp": 1795320549636
+    },
+    {
+      "key": "expected_422_extra",
+      "value": 0.0,
+      "step": 6,
+      "timestamp": 1795320549636
+    },
+    {
+      "key": "failed",
+      "value": 25.0,
+      "step": 6,
+      "timestamp": 1795320549636
+    },
+    {
+      "key": "labeled_correct",
+      "value": 0.0,
+      "step": 6,
+      "timestamp": 1795320549636
+    },
+    {
+      "key": "latency_samples",
+      "value": 0.0,
+      "step": 6,
+      "timestamp": 1795320549636
+    },
+    {
+      "key": "oov",
+      "value": 0.0,
+      "step": 6,
+      "timestamp": 1795320549636
+    },
+    {
+      "key": "probes",
+      "value": 25.0,
+      "step": 6,
+      "timestamp": 1795320549636
+    },
+    {
+      "key": "window",
+      "value": 6.0,
+      "step": 6,
+      "timestamp": 1795320549636
+    },
+    {
+      "key": "availability",
+      "value": 0.0,
+      "step": 7,
+      "timestamp": 1795320551464
+    },
+    {
+      "key": "availability_burn",
+      "value": 99.99999999999991,
+      "step": 7,
+      "timestamp": 1795320551464
+    },
+    {
+      "key": "drift_n",
+      "value": 0.0,
+      "step": 7,
+      "timestamp": 1795320551464
+    },
+    {
+      "key": "expected_422_extra",
+      "value": 0.0,
+      "step": 7,
+      "timestamp": 1795320551464
+    },
+    {
+      "key": "failed",
+      "value": 25.0,
+      "step": 7,
+      "timestamp": 1795320551464
+    },
+    {
+      "key": "labeled_correct",
+      "value": 0.0,
+      "step": 7,
+      "timestamp": 1795320551464
+    },
+    {
+      "key": "latency_samples",
+      "value": 0.0,
+      "step": 7,
+      "timestamp": 1795320551464
+    },
+    {
+      "key": "oov",
+      "value": 0.0,
+      "step": 7,
+      "timestamp": 1795320551464
+    },
+    {
+      "key": "probes",
+      "value": 25.0,
+      "step": 7,
+      "timestamp": 1795320551464
+    },
+    {
+      "key": "window",
+      "value": 7.0,
+      "step": 7,
+      "timestamp": 1795320551464
+    },
+    {
+      "key": "availability",
+      "value": 0.0,
+      "step": 8,
+      "timestamp": 1795320553293
+    },
+    {
+      "key": "availability_burn",
+      "value": 99.99999999999991,
+      "step": 8,
+      "timestamp": 1795320553293
+    },
+    {
+      "key": "drift_n",
+      "value": 0.0,
+      "step": 8,
+      "timestamp": 1795320553293
+    },
+    {
+      "key": "expected_422_extra",
+      "value": 0.0,
+      "step": 8,
+      "timestamp": 1795320553293
+    },
+    {
+      "key": "failed",
+      "value": 25.0,
+      "step": 8,
+      "timestamp": 1795320553293
+    },
+    {
+      "key": "labeled_correct",
+      "value": 0.0,
+      "step": 8,
+      "timestamp": 1795320553293
+    },
+    {
+      "key": "latency_samples",
+      "value": 0.0,
+      "step": 8,
+      "timestamp": 1795320553293
+    },
+    {
+      "key": "oov",
+      "value": 0.0,
+      "step": 8,
+      "timestamp": 1795320553293
+    },
+    {
+      "key": "probes",
+      "value": 25.0,
+      "step": 8,
+      "timestamp": 1795320553293
+    },
+    {
+      "key": "window",
+      "value": 8.0,
+      "step": 8,
+      "timestamp": 1795320553293
+    },
+    {
+      "key": "availability",
+      "value": 1.0,
+      "step": 9,
+      "timestamp": 1795320556701
+    },
+    {
+      "key": "availability_burn",
+      "value": 0.0,
+      "step": 9,
+      "timestamp": 1795320556701
+    },
+    {
+      "key": "drift_n",
+      "value": 24.0,
+      "step": 9,
+      "timestamp": 1795320556701
+    },
+    {
+      "key": "expected_422_extra",
+      "value": 0.0,
+      "step": 9,
+      "timestamp": 1795320556701
+    },
+    {
+      "key": "failed",
+      "value": 0.0,
+      "step": 9,
+      "timestamp": 1795320556701
+    },
+    {
+      "key": "http_p95_ms",
+      "value": 4.787,
+      "step": 9,
+      "timestamp": 1795320556701
+    },
+    {
+      "key": "inference_p95_ms",
+      "value": 1.887,
+      "step": 9,
+      "timestamp": 1795320556701
+    },
+    {
+      "key": "jsd_bits",
+      "value": 0.0,
+      "step": 9,
+      "timestamp": 1795320556701
+    },
+    {
+      "key": "labeled_correct",
+      "value": 24.0,
+      "step": 9,
+      "timestamp": 1795320556701
+    },
+    {
+      "key": "latency_burn",
+      "value": 0.0,
+      "step": 9,
+      "timestamp": 1795320556701
+    },
+    {
+      "key": "latency_compliance",
+      "value": 1.0,
+      "step": 9,
+      "timestamp": 1795320556701
+    },
+    {
+      "key": "latency_samples",
+      "value": 24.0,
+      "step": 9,
+      "timestamp": 1795320556701
+    },
+    {
+      "key": "oov",
+      "value": 0.0,
+      "step": 9,
+      "timestamp": 1795320556701
+    },
+    {
+      "key": "oov_rate",
+      "value": 0.0,
+      "step": 9,
+      "timestamp": 1795320556701
+    },
+    {
+      "key": "probes",
+      "value": 25.0,
+      "step": 9,
+      "timestamp": 1795320556701
+    },
+    {
+      "key": "slow",
+      "value": 0.0,
+      "step": 9,
+      "timestamp": 1795320556701
+    },
+    {
+      "key": "window",
+      "value": 9.0,
+      "step": 9,
+      "timestamp": 1795320556701
+    },
+    {
+      "key": "availability",
+      "value": 1.0,
+      "step": 10,
+      "timestamp": 1795320558644
+    },
+    {
+      "key": "availability_burn",
+      "value": 0.0,
+      "step": 10,
+      "timestamp": 1795320558644
+    },
+    {
+      "key": "drift_n",
+      "value": 24.0,
+      "step": 10,
+      "timestamp": 1795320558644
+    },
+    {
+      "key": "expected_422_extra",
+      "value": 0.0,
+      "step": 10,
+      "timestamp": 1795320558644
+    },
+    {
+      "key": "failed",
+      "value": 0.0,
+      "step": 10,
+      "timestamp": 1795320558644
+    },
+    {
+      "key": "http_p95_ms",
+      "value": 3.002,
+      "step": 10,
+      "timestamp": 1795320558644
+    },
+    {
+      "key": "inference_p95_ms",
+      "value": 1.122,
+      "step": 10,
+      "timestamp": 1795320558644
+    },
+    {
+      "key": "jsd_bits",
+      "value": 0.0,
+      "step": 10,
+      "timestamp": 1795320558644
+    },
+    {
+      "key": "labeled_correct",
+      "value": 24.0,
+      "step": 10,
+      "timestamp": 1795320558644
+    },
+    {
+      "key": "latency_burn",
+      "value": 0.0,
+      "step": 10,
+      "timestamp": 1795320558644
+    },
+    {
+      "key": "latency_compliance",
+      "value": 1.0,
+      "step": 10,
+      "timestamp": 1795320558644
+    },
+    {
+      "key": "latency_samples",
+      "value": 24.0,
+      "step": 10,
+      "timestamp": 1795320558644
+    },
+    {
+      "key": "oov",
+      "value": 0.0,
+      "step": 10,
+      "timestamp": 1795320558644
+    },
+    {
+      "key": "oov_rate",
+      "value": 0.0,
+      "step": 10,
+      "timestamp": 1795320558644
+    },
+    {
+      "key": "probes",
+      "value": 25.0,
+      "step": 10,
+      "timestamp": 1795320558644
+    },
+    {
+      "key": "slow",
+      "value": 0.0,
+      "step": 10,
+      "timestamp": 1795320558644
+    },
+    {
+      "key": "window",
+      "value": 10.0,
+      "step": 10,
+      "timestamp": 1795320558644
+    },
+    {
+      "key": "availability",
+      "value": 1.0,
+      "step": 11,
+      "timestamp": 1795320560578
+    },
+    {
+      "key": "availability_burn",
+      "value": 0.0,
+      "step": 11,
+      "timestamp": 1795320560578
+    },
+    {
+      "key": "drift_n",
+      "value": 24.0,
+      "step": 11,
+      "timestamp": 1795320560578
+    },
+    {
+      "key": "expected_422_extra",
+      "value": 0.0,
+      "step": 11,
+      "timestamp": 1795320560578
+    },
+    {
+      "key": "failed",
+      "value": 0.0,
+      "step": 11,
+      "timestamp": 1795320560578
+    },
+    {
+      "key": "http_p95_ms",
+      "value": 3.167,
+      "step": 11,
+      "timestamp": 1795320560578
+    },
+    {
+      "key": "inference_p95_ms",
+      "value": 1.044,
+      "step": 11,
+      "timestamp": 1795320560578
+    },
+    {
+      "key": "jsd_bits",
+      "value": 0.4591479170272446,
+      "step": 11,
+      "timestamp": 1795320560578
+    },
+    {
+      "key": "labeled_correct",
+      "value": 24.0,
+      "step": 11,
+      "timestamp": 1795320560578
+    },
+    {
+      "key": "latency_burn",
+      "value": 0.0,
+      "step": 11,
+      "timestamp": 1795320560578
+    },
+    {
+      "key": "latency_compliance",
+      "value": 1.0,
+      "step": 11,
+      "timestamp": 1795320560578
+    },
+    {
+      "key": "latency_samples",
+      "value": 24.0,
+      "step": 11,
+      "timestamp": 1795320560578
+    },
+    {
+      "key": "oov",
+      "value": 16.0,
+      "step": 11,
+      "timestamp": 1795320560578
+    },
+    {
+      "key": "oov_rate",
+      "value": 0.6666666666666666,
+      "step": 11,
+      "timestamp": 1795320560578
+    },
+    {
+      "key": "probes",
+      "value": 25.0,
+      "step": 11,
+      "timestamp": 1795320560578
+    },
+    {
+      "key": "slow",
+      "value": 0.0,
+      "step": 11,
+      "timestamp": 1795320560578
+    },
+    {
+      "key": "window",
+      "value": 11.0,
+      "step": 11,
+      "timestamp": 1795320560578
+    },
+    {
+      "key": "availability",
+      "value": 1.0,
+      "step": 12,
+      "timestamp": 1795320562518
+    },
+    {
+      "key": "availability_burn",
+      "value": 0.0,
+      "step": 12,
+      "timestamp": 1795320562518
+    },
+    {
+      "key": "drift_n",
+      "value": 24.0,
+      "step": 12,
+      "timestamp": 1795320562518
+    },
+    {
+      "key": "expected_422_extra",
+      "value": 0.0,
+      "step": 12,
+      "timestamp": 1795320562518
+    },
+    {
+      "key": "failed",
+      "value": 0.0,
+      "step": 12,
+      "timestamp": 1795320562518
+    },
+    {
+      "key": "http_p95_ms",
+      "value": 3.412,
+      "step": 12,
+      "timestamp": 1795320562518
+    },
+    {
+      "key": "inference_p95_ms",
+      "value": 1.391,
+      "step": 12,
+      "timestamp": 1795320562518
+    },
+    {
+      "key": "jsd_bits",
+      "value": 0.4591479170272446,
+      "step": 12,
+      "timestamp": 1795320562518
+    },
+    {
+      "key": "labeled_correct",
+      "value": 24.0,
+      "step": 12,
+      "timestamp": 1795320562518
+    },
+    {
+      "key": "latency_burn",
+      "value": 0.0,
+      "step": 12,
+      "timestamp": 1795320562518
+    },
+    {
+      "key": "latency_compliance",
+      "value": 1.0,
+      "step": 12,
+      "timestamp": 1795320562518
+    },
+    {
+      "key": "latency_samples",
+      "value": 24.0,
+      "step": 12,
+      "timestamp": 1795320562518
+    },
+    {
+      "key": "oov",
+      "value": 16.0,
+      "step": 12,
+      "timestamp": 1795320562518
+    },
+    {
+      "key": "oov_rate",
+      "value": 0.6666666666666666,
+      "step": 12,
+      "timestamp": 1795320562518
+    },
+    {
+      "key": "probes",
+      "value": 25.0,
+      "step": 12,
+      "timestamp": 1795320562518
+    },
+    {
+      "key": "slow",
+      "value": 0.0,
+      "step": 12,
+      "timestamp": 1795320562518
+    },
+    {
+      "key": "window",
+      "value": 12.0,
+      "step": 12,
+      "timestamp": 1795320562518
+    },
+    {
+      "key": "availability",
+      "value": 1.0,
+      "step": 13,
+      "timestamp": 1795320564526
+    },
+    {
+      "key": "availability_burn",
+      "value": 0.0,
+      "step": 13,
+      "timestamp": 1795320564526
+    },
+    {
+      "key": "drift_n",
+      "value": 24.0,
+      "step": 13,
+      "timestamp": 1795320564526
+    },
+    {
+      "key": "expected_422_extra",
+      "value": 0.0,
+      "step": 13,
+      "timestamp": 1795320564526
+    },
+    {
+      "key": "failed",
+      "value": 0.0,
+      "step": 13,
+      "timestamp": 1795320564526
+    },
+    {
+      "key": "http_p95_ms",
+      "value": 4.445,
+      "step": 13,
+      "timestamp": 1795320564526
+    },
+    {
+      "key": "inference_p95_ms",
+      "value": 1.168,
+      "step": 13,
+      "timestamp": 1795320564526
+    },
+    {
+      "key": "jsd_bits",
+      "value": 0.4591479170272446,
+      "step": 13,
+      "timestamp": 1795320564526
+    },
+    {
+      "key": "labeled_correct",
+      "value": 24.0,
+      "step": 13,
+      "timestamp": 1795320564526
+    },
+    {
+      "key": "latency_burn",
+      "value": 0.0,
+      "step": 13,
+      "timestamp": 1795320564526
+    },
+    {
+      "key": "latency_compliance",
+      "value": 1.0,
+      "step": 13,
+      "timestamp": 1795320564526
+    },
+    {
+      "key": "latency_samples",
+      "value": 24.0,
+      "step": 13,
+      "timestamp": 1795320564526
+    },
+    {
+      "key": "oov",
+      "value": 16.0,
+      "step": 13,
+      "timestamp": 1795320564526
+    },
+    {
+      "key": "oov_rate",
+      "value": 0.6666666666666666,
+      "step": 13,
+      "timestamp": 1795320564526
+    },
+    {
+      "key": "probes",
+      "value": 25.0,
+      "step": 13,
+      "timestamp": 1795320564526
+    },
+    {
+      "key": "slow",
+      "value": 0.0,
+      "step": 13,
+      "timestamp": 1795320564526
+    },
+    {
+      "key": "window",
+      "value": 13.0,
+      "step": 13,
+      "timestamp": 1795320564526
+    },
+    {
+      "key": "availability",
+      "value": 1.0,
+      "step": 14,
+      "timestamp": 1795320566459
+    },
+    {
+      "key": "availability_burn",
+      "value": 0.0,
+      "step": 14,
+      "timestamp": 1795320566459
+    },
+    {
+      "key": "drift_n",
+      "value": 24.0,
+      "step": 14,
+      "timestamp": 1795320566459
+    },
+    {
+      "key": "expected_422_extra",
+      "value": 0.0,
+      "step": 14,
+      "timestamp": 1795320566459
+    },
+    {
+      "key": "failed",
+      "value": 0.0,
+      "step": 14,
+      "timestamp": 1795320566459
+    },
+    {
+      "key": "http_p95_ms",
+      "value": 3.136,
+      "step": 14,
+      "timestamp": 1795320566459
+    },
+    {
+      "key": "inference_p95_ms",
+      "value": 0.792,
+      "step": 14,
+      "timestamp": 1795320566459
+    },
+    {
+      "key": "jsd_bits",
+      "value": 0.0,
+      "step": 14,
+      "timestamp": 1795320566459
+    },
+    {
+      "key": "labeled_correct",
+      "value": 24.0,
+      "step": 14,
+      "timestamp": 1795320566459
+    },
+    {
+      "key": "latency_burn",
+      "value": 0.0,
+      "step": 14,
+      "timestamp": 1795320566459
+    },
+    {
+      "key": "latency_compliance",
+      "value": 1.0,
+      "step": 14,
+      "timestamp": 1795320566459
+    },
+    {
+      "key": "latency_samples",
+      "value": 24.0,
+      "step": 14,
+      "timestamp": 1795320566459
+    },
+    {
+      "key": "oov",
+      "value": 0.0,
+      "step": 14,
+      "timestamp": 1795320566459
+    },
+    {
+      "key": "oov_rate",
+      "value": 0.0,
+      "step": 14,
+      "timestamp": 1795320566459
+    },
+    {
+      "key": "probes",
+      "value": 25.0,
+      "step": 14,
+      "timestamp": 1795320566459
+    },
+    {
+      "key": "slow",
+      "value": 0.0,
+      "step": 14,
+      "timestamp": 1795320566459
+    },
+    {
+      "key": "window",
+      "value": 14.0,
+      "step": 14,
+      "timestamp": 1795320566459
+    },
+    {
+      "key": "availability",
+      "value": 1.0,
+      "step": 15,
+      "timestamp": 1795320568386
+    },
+    {
+      "key": "availability_burn",
+      "value": 0.0,
+      "step": 15,
+      "timestamp": 1795320568386
+    },
+    {
+      "key": "drift_n",
+      "value": 24.0,
+      "step": 15,
+      "timestamp": 1795320568386
+    },
+    {
+      "key": "expected_422_extra",
+      "value": 0.0,
+      "step": 15,
+      "timestamp": 1795320568386
+    },
+    {
+      "key": "failed",
+      "value": 0.0,
+      "step": 15,
+      "timestamp": 1795320568386
+    },
+    {
+      "key": "http_p95_ms",
+      "value": 3.22,
+      "step": 15,
+      "timestamp": 1795320568386
+    },
+    {
+      "key": "inference_p95_ms",
+      "value": 1.092,
+      "step": 15,
+      "timestamp": 1795320568386
+    },
+    {
+      "key": "jsd_bits",
+      "value": 0.0,
+      "step": 15,
+      "timestamp": 1795320568386
+    },
+    {
+      "key": "labeled_correct",
+      "value": 24.0,
+      "step": 15,
+      "timestamp": 1795320568386
+    },
+    {
+      "key": "latency_burn",
+      "value": 0.0,
+      "step": 15,
+      "timestamp": 1795320568386
+    },
+    {
+      "key": "latency_compliance",
+      "value": 1.0,
+      "step": 15,
+      "timestamp": 1795320568386
+    },
+    {
+      "key": "latency_samples",
+      "value": 24.0,
+      "step": 15,
+      "timestamp": 1795320568386
+    },
+    {
+      "key": "oov",
+      "value": 0.0,
+      "step": 15,
+      "timestamp": 1795320568386
+    },
+    {
+      "key": "oov_rate",
+      "value": 0.0,
+      "step": 15,
+      "timestamp": 1795320568386
+    },
+    {
+      "key": "probes",
+      "value": 25.0,
+      "step": 15,
+      "timestamp": 1795320568386
+    },
+    {
+      "key": "slow",
+      "value": 0.0,
+      "step": 15,
+      "timestamp": 1795320568386
+    },
+    {
+      "key": "window",
+      "value": 15.0,
+      "step": 15,
+      "timestamp": 1795320568386
+    }
+  ],
+  "artifact_names": [
+    "acciones.jsonl",
+    "alertas.jsonl",
+    "config.json",
+    "escalamiento.json",
+    "estado.json",
+    "reglas.json",
+    "resumen.json",
+    "servicio.log",
+    "sondas.jsonl",
+    "telemetria.jsonl"
+  ]
+}

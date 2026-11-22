@@ -1,0 +1,12 @@
+.venv/
+.env
+__pycache__/
+.pytest_cache/
+*.py[cod]
+/evidencia/*
+!/evidencia/verificada/
+*.sqlite
+*.sqlite-journal
+mlflow_artifacts/
+
+/servicio/models/*.joblib

@@ -1,0 +1,14 @@
+{
+  "availability_slo": 0.99,
+  "latency_slo": 0.95,
+  "latency_floor_ms": 25,
+  "latency_baseline_factor": 2,
+  "baseline_windows": 4,
+  "availability_burn_critical": 10,
+  "latency_burn_warning": 2,
+  "drift_jsd_threshold_bits": 0.08,
+  "min_probes": 20,
+  "min_drift_samples": 20,
+  "consecutive_breaches": 2,
+  "consecutive_clean": 2
+}

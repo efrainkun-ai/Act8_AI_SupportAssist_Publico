@@ -1,0 +1,6 @@
+{"rule": "availability", "state": "opened", "severity": "P1", "runbook": "RB-01", "window": 7, "utc": "2026-11-22T04:09:11.463+00:00", "phase": "incidente integridad"}
+{"rule": "availability", "state": "duplicate_suppressed", "severity": "P1", "runbook": "RB-01", "window": 8, "utc": "2026-11-22T04:09:13.293+00:00", "phase": "incidente integridad"}
+{"rule": "availability", "state": "resolved", "severity": "P1", "runbook": "RB-01", "window": 10, "utc": "2026-11-22T04:09:18.644+00:00", "phase": "validación rollback"}
+{"rule": "drift", "state": "opened", "severity": "P2", "runbook": "RB-02", "window": 12, "utc": "2026-11-22T04:09:22.517+00:00", "phase": "incidente drift"}
+{"rule": "drift", "state": "duplicate_suppressed", "severity": "P2", "runbook": "RB-02", "window": 13, "utc": "2026-11-22T04:09:24.525+00:00", "phase": "incidente drift"}
+{"rule": "drift", "state": "resolved", "severity": "P2", "runbook": "RB-02", "window": 15, "utc": "2026-11-22T04:09:28.386+00:00", "phase": "validación drift"}

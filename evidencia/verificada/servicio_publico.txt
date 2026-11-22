@@ -1,0 +1,7 @@
+Resumen del registro de arranque del ejercicio RB-01
+
+1. El servicio inició con el modelo estable.
+2. El inicio con el candidato de prueba terminó con RuntimeError. La huella del modelo no coincidió con metadata.json.
+3. El servicio volvió a iniciar con el paquete estable después de la reversión.
+
+Fuentes en esta carpeta: telemetria.jsonl (startup_ready y startup_failed), acciones.jsonl y resumen.json.

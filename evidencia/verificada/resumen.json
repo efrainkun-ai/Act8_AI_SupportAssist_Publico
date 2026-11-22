@@ -1,0 +1,16 @@
+{
+  "baseline_http_p95_ms": 4.006,
+  "baseline_canaries": 96,
+  "latency_limit_ms": 25,
+  "RB-01": {
+    "detect_s": 3.537,
+    "recover_s": 7.18
+  },
+  "RB-02": {
+    "detect_s": 2.061,
+    "recover_s": 5.869
+  },
+  "run_id": "4ef2c00995e146cfad88c48e50f63068",
+  "received_windows": 15,
+  "completed_utc": "2026-11-22T04:09:30.195+00:00"
+}

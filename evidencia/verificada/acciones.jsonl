@@ -1,0 +1,7 @@
+{"utc": "2026-11-22T04:09:07.927+00:00", "incident": "RB-01", "step": "desplegar candidato de prueba"}
+{"utc": "2026-11-22T04:09:09.616+00:00", "incident": "RB-01", "step": "arranque rechazado por integridad"}
+{"utc": "2026-11-22T04:09:15.103+00:00", "incident": "RB-01", "step": "rollback automático", "stable_sha256": "3bcdf28fb22781d16bb2840ac9bd2f1861c7aae2853e7f4fc40695e1c8553790", "model_version": "act6-nb-financial-v1"}
+{"utc": "2026-11-22T04:09:20.455+00:00", "incident": "RB-01", "step": "recuperación validada", "successful_probes": 25}
+{"utc": "2026-11-22T04:09:20.456+00:00", "incident": "RB-02", "step": "inyectar lote sintético fuera de vocabulario"}
+{"utc": "2026-11-22T04:09:26.337+00:00", "incident": "RB-02", "step": "lote aislado para revisión humana", "responsible": "supervisor de soporte", "operation": "excluir lote sintético del flujo normal", "criterion": "422 sin_vocabulario; sin aplicar sugerencia de clasificación"}
+{"utc": "2026-11-22T04:09:30.194+00:00", "incident": "RB-02", "step": "recuperación validada", "jsd_bits": 0.0}

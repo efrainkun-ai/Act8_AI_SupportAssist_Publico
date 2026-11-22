@@ -1,0 +1,200 @@
+{
+  "queue": "revision_humana",
+  "destination": "supervisor de soporte simulado",
+  "count": 48,
+  "requests": [
+    {
+      "window": 11,
+      "trace_id": "f3a191c6c4de42619045cd5cfe29dfe4"
+    },
+    {
+      "window": 11,
+      "trace_id": "4532555792b24c1ebd2e089a8248c7d9"
+    },
+    {
+      "window": 11,
+      "trace_id": "b314a2096c9945498f2cfab1f7f25a89"
+    },
+    {
+      "window": 11,
+      "trace_id": "85e99d1a1af246b680f0354e8596615d"
+    },
+    {
+      "window": 11,
+      "trace_id": "79c49c35cf714f5bbe0240dd8ac1cde9"
+    },
+    {
+      "window": 11,
+      "trace_id": "816c5a051f454dfcb4d0f80fc2478dca"
+    },
+    {
+      "window": 11,
+      "trace_id": "49907c44b04d4896a7648f2aff99ca08"
+    },
+    {
+      "window": 11,
+      "trace_id": "e2d5b627cae24b74b820a814fafda312"
+    },
+    {
+      "window": 11,
+      "trace_id": "6f9410551613476aaba146a61ac174a8"
+    },
+    {
+      "window": 11,
+      "trace_id": "ce5a2e201be340c2bfc12acaf73f7a2a"
+    },
+    {
+      "window": 11,
+      "trace_id": "46a86c0495f145a1ba5100f5b8f831c4"
+    },
+    {
+      "window": 11,
+      "trace_id": "aaf7039812814942963cdb17a8d32739"
+    },
+    {
+      "window": 11,
+      "trace_id": "ba0a9dd2b8ab4e80b8eb7df91a455917"
+    },
+    {
+      "window": 11,
+      "trace_id": "069e7ee80e264fd494a41efda874deb0"
+    },
+    {
+      "window": 11,
+      "trace_id": "4406c03f4e214c6fb9d0d92d9ba4e180"
+    },
+    {
+      "window": 11,
+      "trace_id": "2051c5bfefb34afaabd7571498822105"
+    },
+    {
+      "window": 12,
+      "trace_id": "11fab95a3f2a4526abce8da66a1549e0"
+    },
+    {
+      "window": 12,
+      "trace_id": "932bbf30f5b243e89578dd9437dd1aea"
+    },
+    {
+      "window": 12,
+      "trace_id": "9dbc1600982a45c4af8b350fe7ad2121"
+    },
+    {
+      "window": 12,
+      "trace_id": "e4d7419d6dbc4b1ebfe58bcd9c460c94"
+    },
+    {
+      "window": 12,
+      "trace_id": "b82b99586a7948829076db9dc6c0667b"
+    },
+    {
+      "window": 12,
+      "trace_id": "3a2ec0170b25465188e3e92a1d334e51"
+    },
+    {
+      "window": 12,
+      "trace_id": "f40630b505bf47fe979194838af78fa3"
+    },
+    {
+      "window": 12,
+      "trace_id": "ab3827692c6447888cc2663e34861e3b"
+    },
+    {
+      "window": 12,
+      "trace_id": "8ae348b55efe49958bb266ded896ea91"
+    },
+    {
+      "window": 12,
+      "trace_id": "e5c29f0c88bd4fabb0415c9e4f34b63d"
+    },
+    {
+      "window": 12,
+      "trace_id": "f943e3e289d342a8846f65955785e886"
+    },
+    {
+      "window": 12,
+      "trace_id": "ef903abcbeda49c589c6e58087eec335"
+    },
+    {
+      "window": 12,
+      "trace_id": "4a48ddbb090945389e85d88f5d3363fb"
+    },
+    {
+      "window": 12,
+      "trace_id": "dcd0ab97aacf4647a98c9f6dccb40a61"
+    },
+    {
+      "window": 12,
+      "trace_id": "b1aa01b501004c81af1159f68cacace2"
+    },
+    {
+      "window": 12,
+      "trace_id": "dba4ec3ac2d746b58bdace6279ffea0f"
+    },
+    {
+      "window": 13,
+      "trace_id": "552eeae3660f4d8db5c11836ef2aa8a9"
+    },
+    {
+      "window": 13,
+      "trace_id": "68603ff7ca0341798a16a1c6286b4f2b"
+    },
+    {
+      "window": 13,
+      "trace_id": "ef0fa787edcb4569bbf275eda1bd013b"
+    },
+    {
+      "window": 13,
+      "trace_id": "658f9189a1be40e4a26c59221a95b296"
+    },
+    {
+      "window": 13,
+      "trace_id": "5f7e4c9b16304d49b54956c11c80aab6"
+    },
+    {
+      "window": 13,
+      "trace_id": "6f995f704de34d32bc43b4eac9450dad"
+    },
+    {
+      "window": 13,
+      "trace_id": "bf1312ade418458fb85ca6f640971e3e"
+    },
+    {
+      "window": 13,
+      "trace_id": "af4de5493efe4e3db7e9abe8e81379d0"
+    },
+    {
+      "window": 13,
+      "trace_id": "c098a781004d4623b64e5b79e1084c54"
+    },
+    {
+      "window": 13,
+      "trace_id": "37b0249310cb40b5997ee83dee46b132"
+    },
+    {
+      "window": 13,
+      "trace_id": "8009029df07949c7b4ebb6320e02da95"
+    },
+    {
+      "window": 13,
+      "trace_id": "f0f848b4b0ab4dccb06a8459ffc6237a"
+    },
+    {
+      "window": 13,
+      "trace_id": "89d379d7c7d841e3a9048949a2ee3fe8"
+    },
+    {
+      "window": 13,
+      "trace_id": "84277f09c92c4907be63d914252e5a40"
+    },
+    {
+      "window": 13,
+      "trace_id": "f1571464dc5648c98450eb42209c9689"
+    },
+    {
+      "window": 13,
+      "trace_id": "a48036cbca164191b924cffd19816d16"
+    }
+  ],
+  "reason": "drift de cobertura léxica"
+}
